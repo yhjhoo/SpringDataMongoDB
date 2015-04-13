@@ -27,6 +27,8 @@ public class SpringDataMongoDBMain {
 	public static final String MONGO_HOST = "192.168.56.101";
 	public static final int MONGO_PORT = 27017;
 
+	
+	
 	@Repeat(100)
 	@Test
 	public void test123(){
